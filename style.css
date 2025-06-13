@@ -4,6 +4,11 @@ body {
   padding-top: 30px;
   margin-left: 0px;
   margin-right: 0px;
+  font-family: "Karla", sans-serif;
+  background-color: #fbeaea;
+  color: #3a2d27;
+  margin: 0;
+  padding: 20px;
 }
 /* ⬆⬆⬆⬆ Nav Bar Styling 
 ~~~~~ Taken From: 
@@ -13,7 +18,7 @@ ul.nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #de9ff5;
   position: fixed;
   top: 0;
   width: 100%;
@@ -33,11 +38,11 @@ ul.nav li a {
 }
 
 ul.nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: pink;
 }
 
 ul.nav .active {
-  background-color: red;
+  background-color: blue;
 }
 
 h1 {
